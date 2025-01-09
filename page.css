@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    max-width: 2000px;
+    background-color: black;
+}
+
+.mate {
+    width:30%;
+}
+
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    border: orange solid 2px;
+    border-radius: 10px;
+    margin: 40px;
+
+}
+
+.login h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 9px;
+}
+
+.fname {
+    width:150px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.tye {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.femail {
+    width:150px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    
+}
+
+.email {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+.button {
+    border: white solid 1px;
+    border-radius: 7px;
+    width: 50px;
+    padding: 10px 10px;
+    margin: 5px;
+    text-decoration: none;
+    
+}
